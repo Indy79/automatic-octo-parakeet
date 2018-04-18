@@ -1,5 +1,19 @@
 language: swift
 os: osx
-osx_image: xcode9.3
+
 xcode_project: Automatic Octo Parakeet.xcodeproj # path to your xcodeproj folder
 xcode_scheme: Automatic Octo ParakeetTests
+
+branches:
+  only:
+    - develop
+    - master
+env:
+  - LC_CTYPE=fr_FR.UTF-8 LANG=fr_FR.UTF-8
+
+before_install:
+  - rvm install ruby-2.2.2
+  - gem install fastlane -NV
+
+script:
+  - fastlane screenshots
