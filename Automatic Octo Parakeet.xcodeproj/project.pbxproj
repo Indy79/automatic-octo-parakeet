@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3445D802208784F3006D2749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3445D801208784F3006D2749 /* AppDelegate.swift */; };
+		3445D804208784F3006D2749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3445D803208784F3006D2749 /* ViewController.swift */; };
+		3445D807208784F3006D2749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3445D805208784F3006D2749 /* Main.storyboard */; };
+		3445D809208784F4006D2749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3445D808208784F4006D2749 /* Assets.xcassets */; };
+		3445D80C208784F4006D2749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3445D80A208784F4006D2749 /* LaunchScreen.storyboard */; };
+		3445D817208784F5006D2749 /* Automatic_Octo_ParakeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3445D816208784F5006D2749 /* Automatic_Octo_ParakeetTests.swift */; };
+		3445D822208784F5006D2749 /* Automatic_Octo_ParakeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3445D821208784F5006D2749 /* Automatic_Octo_ParakeetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3445D813208784F4006D2749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3445D7F6208784F3006D2749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3445D7FD208784F3006D2749;
+			remoteInfo = "Automatic Octo Parakeet";
+		};
+		3445D81E208784F5006D2749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3445D7F6208784F3006D2749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3445D7FD208784F3006D2749;
+			remoteInfo = "Automatic Octo Parakeet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3445D7FE208784F3006D2749 /* Automatic Octo Parakeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Automatic Octo Parakeet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3445D801208784F3006D2749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3445D803208784F3006D2749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3445D806208784F3006D2749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3445D808208784F4006D2749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3445D80B208784F4006D2749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3445D80D208784F4006D2749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3445D812208784F4006D2749 /* Automatic Octo ParakeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Automatic Octo ParakeetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3445D816208784F5006D2749 /* Automatic_Octo_ParakeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_Octo_ParakeetTests.swift; sourceTree = "<group>"; };
+		3445D818208784F5006D2749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3445D81D208784F5006D2749 /* Automatic Octo ParakeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Automatic Octo ParakeetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3445D821208784F5006D2749 /* Automatic_Octo_ParakeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_Octo_ParakeetUITests.swift; sourceTree = "<group>"; };
+		3445D823208784F5006D2749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3445D7FB208784F3006D2749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3445D80F208784F4006D2749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3445D81A208784F5006D2749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3445D7F5208784F3006D2749 = {
+			isa = PBXGroup;
+			children = (
+				3445D800208784F3006D2749 /* Automatic Octo Parakeet */,
+				3445D815208784F5006D2749 /* Automatic Octo ParakeetTests */,
+				3445D820208784F5006D2749 /* Automatic Octo ParakeetUITests */,
+				3445D7FF208784F3006D2749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3445D7FF208784F3006D2749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3445D7FE208784F3006D2749 /* Automatic Octo Parakeet.app */,
+				3445D812208784F4006D2749 /* Automatic Octo ParakeetTests.xctest */,
+				3445D81D208784F5006D2749 /* Automatic Octo ParakeetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3445D800208784F3006D2749 /* Automatic Octo Parakeet */ = {
+			isa = PBXGroup;
+			children = (
+				3445D801208784F3006D2749 /* AppDelegate.swift */,
+				3445D803208784F3006D2749 /* ViewController.swift */,
+				3445D805208784F3006D2749 /* Main.storyboard */,
+				3445D808208784F4006D2749 /* Assets.xcassets */,
+				3445D80A208784F4006D2749 /* LaunchScreen.storyboard */,
+				3445D80D208784F4006D2749 /* Info.plist */,
+			);
+			path = "Automatic Octo Parakeet";
+			sourceTree = "<group>";
+		};
+		3445D815208784F5006D2749 /* Automatic Octo ParakeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				3445D816208784F5006D2749 /* Automatic_Octo_ParakeetTests.swift */,
+				3445D818208784F5006D2749 /* Info.plist */,
+			);
+			path = "Automatic Octo ParakeetTests";
+			sourceTree = "<group>";
+		};
+		3445D820208784F5006D2749 /* Automatic Octo ParakeetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3445D821208784F5006D2749 /* Automatic_Octo_ParakeetUITests.swift */,
+				3445D823208784F5006D2749 /* Info.plist */,
+			);
+			path = "Automatic Octo ParakeetUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3445D7FD208784F3006D2749 /* Automatic Octo Parakeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3445D826208784F5006D2749 /* Build configuration list for PBXNativeTarget "Automatic Octo Parakeet" */;
+			buildPhases = (
+				3445D7FA208784F3006D2749 /* Sources */,
+				3445D7FB208784F3006D2749 /* Frameworks */,
+				3445D7FC208784F3006D2749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Automatic Octo Parakeet";
+			productName = "Automatic Octo Parakeet";
+			productReference = 3445D7FE208784F3006D2749 /* Automatic Octo Parakeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3445D811208784F4006D2749 /* Automatic Octo ParakeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3445D829208784F5006D2749 /* Build configuration list for PBXNativeTarget "Automatic Octo ParakeetTests" */;
+			buildPhases = (
+				3445D80E208784F4006D2749 /* Sources */,
+				3445D80F208784F4006D2749 /* Frameworks */,
+				3445D810208784F4006D2749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3445D814208784F4006D2749 /* PBXTargetDependency */,
+			);
+			name = "Automatic Octo ParakeetTests";
+			productName = "Automatic Octo ParakeetTests";
+			productReference = 3445D812208784F4006D2749 /* Automatic Octo ParakeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3445D81C208784F5006D2749 /* Automatic Octo ParakeetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3445D82C208784F5006D2749 /* Build configuration list for PBXNativeTarget "Automatic Octo ParakeetUITests" */;
+			buildPhases = (
+				3445D819208784F5006D2749 /* Sources */,
+				3445D81A208784F5006D2749 /* Frameworks */,
+				3445D81B208784F5006D2749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3445D81F208784F5006D2749 /* PBXTargetDependency */,
+			);
+			name = "Automatic Octo ParakeetUITests";
+			productName = "Automatic Octo ParakeetUITests";
+			productReference = 3445D81D208784F5006D2749 /* Automatic Octo ParakeetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3445D7F6208784F3006D2749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "JOFFRE Jean-baptiste";
+				TargetAttributes = {
+					3445D7FD208784F3006D2749 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3445D811208784F4006D2749 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3445D7FD208784F3006D2749;
+					};
+					3445D81C208784F5006D2749 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3445D7FD208784F3006D2749;
+					};
+				};
+			};
+			buildConfigurationList = 3445D7F9208784F3006D2749 /* Build configuration list for PBXProject "Automatic Octo Parakeet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3445D7F5208784F3006D2749;
+			productRefGroup = 3445D7FF208784F3006D2749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3445D7FD208784F3006D2749 /* Automatic Octo Parakeet */,
+				3445D811208784F4006D2749 /* Automatic Octo ParakeetTests */,
+				3445D81C208784F5006D2749 /* Automatic Octo ParakeetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3445D7FC208784F3006D2749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3445D80C208784F4006D2749 /* LaunchScreen.storyboard in Resources */,
+				3445D809208784F4006D2749 /* Assets.xcassets in Resources */,
+				3445D807208784F3006D2749 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3445D810208784F4006D2749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3445D81B208784F5006D2749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3445D7FA208784F3006D2749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3445D804208784F3006D2749 /* ViewController.swift in Sources */,
+				3445D802208784F3006D2749 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3445D80E208784F4006D2749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3445D817208784F5006D2749 /* Automatic_Octo_ParakeetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3445D819208784F5006D2749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3445D822208784F5006D2749 /* Automatic_Octo_ParakeetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3445D814208784F4006D2749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3445D7FD208784F3006D2749 /* Automatic Octo Parakeet */;
+			targetProxy = 3445D813208784F4006D2749 /* PBXContainerItemProxy */;
+		};
+		3445D81F208784F5006D2749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3445D7FD208784F3006D2749 /* Automatic Octo Parakeet */;
+			targetProxy = 3445D81E208784F5006D2749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3445D805208784F3006D2749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3445D806208784F3006D2749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3445D80A208784F4006D2749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3445D80B208784F4006D2749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3445D824208784F5006D2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3445D825208784F5006D2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3445D827208784F5006D2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZEK96CS5R;
+				INFOPLIST_FILE = "Automatic Octo Parakeet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jug.summer.camp.Automatic-Octo-Parakeet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3445D828208784F5006D2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZEK96CS5R;
+				INFOPLIST_FILE = "Automatic Octo Parakeet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jug.summer.camp.Automatic-Octo-Parakeet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3445D82A208784F5006D2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZEK96CS5R;
+				INFOPLIST_FILE = "Automatic Octo ParakeetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jug.summer.camp.Automatic-Octo-ParakeetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automatic Octo Parakeet.app/Automatic Octo Parakeet";
+			};
+			name = Debug;
+		};
+		3445D82B208784F5006D2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZEK96CS5R;
+				INFOPLIST_FILE = "Automatic Octo ParakeetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jug.summer.camp.Automatic-Octo-ParakeetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automatic Octo Parakeet.app/Automatic Octo Parakeet";
+			};
+			name = Release;
+		};
+		3445D82D208784F5006D2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZEK96CS5R;
+				INFOPLIST_FILE = "Automatic Octo ParakeetUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jug.summer.camp.Automatic-Octo-ParakeetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Automatic Octo Parakeet";
+			};
+			name = Debug;
+		};
+		3445D82E208784F5006D2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZEK96CS5R;
+				INFOPLIST_FILE = "Automatic Octo ParakeetUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jug.summer.camp.Automatic-Octo-ParakeetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Automatic Octo Parakeet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3445D7F9208784F3006D2749 /* Build configuration list for PBXProject "Automatic Octo Parakeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3445D824208784F5006D2749 /* Debug */,
+				3445D825208784F5006D2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3445D826208784F5006D2749 /* Build configuration list for PBXNativeTarget "Automatic Octo Parakeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3445D827208784F5006D2749 /* Debug */,
+				3445D828208784F5006D2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3445D829208784F5006D2749 /* Build configuration list for PBXNativeTarget "Automatic Octo ParakeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3445D82A208784F5006D2749 /* Debug */,
+				3445D82B208784F5006D2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3445D82C208784F5006D2749 /* Build configuration list for PBXNativeTarget "Automatic Octo ParakeetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3445D82D208784F5006D2749 /* Debug */,
+				3445D82E208784F5006D2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3445D7F6208784F3006D2749 /* Project object */;
+}
