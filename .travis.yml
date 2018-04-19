@@ -16,5 +16,5 @@ before_install:
   - gem install fastlane -NV
 
 script:
-  - fastlane snapshot update
-  - fastlane screenshots
+  - fastlane snapshot update --skip_confirmation
+  - fastlane screenshots --skip_confirmation
