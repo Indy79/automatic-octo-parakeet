@@ -17,4 +17,4 @@ before_install:
 
 script:
   - fastlane snapshot update --skip_confirmation
-  - fastlane screenshots --skip_confirmation
+  - fastlane screenshots
