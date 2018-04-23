@@ -1,2 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites tests='0' failures='0'/>
+<testsuites name='Automatic Octo ParakeetTests.xctest' tests='2' failures='0'>
+  <testsuite name='Automatic_Octo_ParakeetTests.Automatic_Octo_ParakeetTests' tests='2' failures='0'>
+    <testcase classname='Automatic_Octo_ParakeetTests.Automatic_Octo_ParakeetTests' name='testExample' time='0.001'/>
+    <testcase classname='Automatic_Octo_ParakeetTests.Automatic_Octo_ParakeetTests' name='testPerformanceExample' time='0.451'/>
+  </testsuite>
+</testsuites>
