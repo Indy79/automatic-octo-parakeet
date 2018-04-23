@@ -10,7 +10,14 @@ import Foundation
 
 class Fastfile: LaneFile {
 	func screenshotsLane() {
-	desc("Generate new localized screenshots")
+		desc("Generate new localized screenshots")
 		captureScreenshots(scheme: "Automatic Octo ParakeetUITests")
+	}
+
+	func testsLane() {
+		desc("Run all the tests for project ")
+		runTests(project: "Automatic Octo Parakeet.xcodeproj",
+            devices: ["iPhone 6s"],
+            scheme: "Automatic Octo ParakeetTests")
 	}
 }

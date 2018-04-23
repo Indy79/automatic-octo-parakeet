@@ -2,32 +2,34 @@
 
 class Snapshotfile: SnapshotfileProtocol {
     // A list of devices you want to take the screenshots from
-    //var devices: [String] { return [
-    //    "iPhone 6",
+    var devices: [String] { return [
+        "iPhone 8",
+        "iPhone 7",
+        "iPhone 6",
     //    "iPhone 6 Plus",
     //    "iPhone 5",
     //    "iPad Pro (12.9-inch)",
     //    "iPad Pro (9.7-inch)",
     //    "Apple TV 1080p"
-    //    ]
-    //}
+        ]
+    }
 
     // locales not supported in Swift yet
     var languages: [String] { return [
+        "fr-FR",
         "en-US",
-        "de-DE",
-        "it-IT"
+        "en-UK"
         ]
     }
 
     // The name of the scheme which contains the UI Tests
-    // var scheme: String? { return "SchemeName" }
+    var scheme: String? { return "Automatic Octo ParakeetUITests" }
 
     // Where should the resulting screenshots be stored?
-    // var outputDirectory: String { return "./screenshots" }
+    var outputDirectory: String { return "./screenshots" }
 
     // Clear all previously generated screenshots before creating new ones
-    // var clearPreviousScreenshots: Bool { return true }
+    var clearPreviousScreenshots: Bool { return true }
 
     // Choose which project/workspace to use
     // var project: String? { return "./Project.xcodeproj" }
