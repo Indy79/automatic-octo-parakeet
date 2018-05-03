@@ -1,1 +1,1 @@
-xcodebuild clean test -quiet -project Automatic\ Octo\ Parakeet.xcodeproj -scheme Automatic\ Octo\ Parakeet -destination 'platform=iOS Simulator,name=iPhone 8 Plus'
+xcodebuild clean test -quiet -project Automatic\ Octo\ Parakeet.xcodeproj -scheme Automatic\ Octo\ ParakeetTests -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.0'
