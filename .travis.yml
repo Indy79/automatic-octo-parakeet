@@ -16,7 +16,7 @@ env:
   - LC_CTYPE=fr_FR.UTF-8 LANG=fr_FR.UTF-8
 
 script:
-  - xcodebuild clean test -quiet -project Automatic\ Octo\ Parakeet.xcodeproj -scheme Automatic\ Octo\ ParakeetTests -destination 'platform=iOS Simulator,name=iPhone 8 Plus'
+  - xcodebuild clean test -quiet -project Automatic\ Octo\ Parakeet.xcodeproj -scheme Automatic\ Octo\ ParakeetTests -destination 'platform=iOS Simulator,name=iPhone 7 Plus'
   
 after_success:
   - bash <(curl -s https://codecov.io/bash)
