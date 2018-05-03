@@ -4,6 +4,10 @@ os: osx
 xcode_project: Automatic Octo Parakeet.xcodeproj # path to your xcodeproj folder
 xcode_scheme: Automatic Octo ParakeetTests
 
+cache:
+- bundler
+- cocoapods
+
 branches:
   only:
     - develop
@@ -11,10 +15,8 @@ branches:
 env:
   - LC_CTYPE=fr_FR.UTF-8 LANG=fr_FR.UTF-8
 
-before_install:
-  - rvm install ruby-2.2.2
-  - gem install fastlane -NV
-
 script:
-  - fastlane tests
-  - fastlane screenshots
+  - xcodebuild clean test -quiet -project Automatic\ Octo\ Parakeet.xcodeproj -scheme Automatic\ Octo\ ParakeetTests -destination 'platform=iOS Simulator,name=iPhone 8 Plus'
+  
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
